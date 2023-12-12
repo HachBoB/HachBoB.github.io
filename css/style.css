@@ -7,12 +7,24 @@
   src: url(../fonts/Poppins-Medium.ttf);
 }
 @font-face {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   src: url(../fonts/Poppins-Regular.ttf);
 }
 @font-face {
-  font-family: Be Vietnam;
-  src: url(../fonts/BeVietnamPro-ExtraLight.ttf);
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: Be Vietnam-Light;
+  src: url(../fonts/BeVietnamPro-Light.ttf);
+}
+@font-face {
+  font-family: Be Vietnam-Bold;
+  src: url(../fonts/BeVietnamPro-Bold.ttf);
 }
 .container {
   width: 1350px;
@@ -30,12 +42,13 @@ li {
   text-decoration: none;
 }
 .logo_text {
-  font-family: Poppins-Medium;
+  font-family: Poppins-Bold;
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: normal;
   letter-spacing: 0.72px;
+  margin: 0 0 0 9px;
 }
 .header_btns {
   display: inline;
@@ -67,7 +80,16 @@ li {
   font-family: Poppins-Medium;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
+  line-height: normal;
+  text-decoration: none;
+}
+.nav-links-fr {
+  color: #FF543D;
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600px;
   line-height: normal;
   text-decoration: none;
 }
@@ -77,45 +99,55 @@ li {
 .cl1 {
   position: sticky;
   z-index: -1;
-  margin: -27px 0 0 -604px;
+  margin: -25px 0 0 -675px;
 }
 .block1 {
   display: flex;
   margin: -867px 0 0 0;
 }
 .text1 {
-  margin: 246px 0 0 0;
-  width: 620px;
+  margin: 250px 0 0 13px;
+  width: 640px;
 }
 .text_Qua {
   color: #000;
-  font-family: Poppins;
-  font-size: 65px;
+  font-family: Poppins-Regular;
+  font-size: 66px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 86px;
-  letter-spacing: 1.98px;
+  letter-spacing: 2px;
+  margin-left: -4px;
 }
 .text_Grow {
   color: #000;
-  font-family: Poppins;
-  font-size: 65px;
+  font-family: Poppins-Bold;
+  font-size: 66px;
   font-style: normal;
   font-weight: 700;
   line-height: 86px;
-  letter-spacing: 1.98px;
+  letter-spacing: 2px;
+  margin-left: -4px;
 }
 .texthide {
   color: #000;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: normal;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.6px;
+  margin: 17px 0px 0px -4px;
+  line-height: 1.4;
+}
+.bottle1-div {
+  display: flex;
+  margin: 64px 0px 0px 109px;
 }
 .bottle1 {
-  margin: 60px 0 0 127px;
+  width: 531px;
+  height: 799px;
+  flex-shrink: 0;
 }
 .button228 {
   width: 138px;
@@ -124,63 +156,179 @@ li {
   background: #FF543D;
   border: none;
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
-  margin: 30px 0 0 0;
+  margin: 30px 0px 0px 3px;
+}
+#but22 {
+  margin: 31px 0 0 -4px;
 }
 .xxx {
-  margin: 111px 0 0 -235px;
+  margin: 110px 0 0 -240px;
 }
 .text2 {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: normal;
-  margin: 154px 0 0 0;
+  margin: 147px 0 0 15px;
+}
+.text2-strong {
+  color: #000;
+  text-align: center;
+  font-family: Poppins-Bold;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
+  margin-left: -3px;
 }
 .text3 {
   color: #000;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   letter-spacing: 0.64px;
+  margin: 10px 0 0 15px;
 }
 .bottle1-4 {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  flex-direction: row;
+  gap: 45px;
+  margin-top: 59px;
+  margin-left: 12px;
 }
 .dorogi {
   display: flex;
   width: 303px;
   justify-content: center;
 }
-.bottle5 {
-  margin: 0 0 0 125px;
+.bottle5_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 303.5px;
 }
-.text_but {
-  width: 308px;
+.bottle4_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 303.5px;
+}
+.bottle3_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 303.5px;
+}
+.bottle2_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 303.5px;
+}
+.bottle5 {
+  margin: 2px 0px 0px -5px;
+}
+.bottle4 {
+  margin: 0px 0 0 -1px;
+}
+.bottle3 {
+  margin: 0px 0 0 0px;
+}
+.bottle2 {
+  margin: 0px -8px 0 0px;
+}
+.text_but5 {
+  width: 303px;
   color: #000;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   letter-spacing: 0.64px;
+  margin: 19px -2px 0px 0px;
+  line-height: 22px;
 }
-.bottle_under_text {
+.text_but4 {
+  width: 304px;
   color: #000;
-  font-family: Poppins;
+  text-align: center;
+  font-family: Be Vietnam-Light;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 0.64px;
+  margin: 19px -2px 0px 0px;
+  line-height: 23px;
+}
+.text_but3 {
+  width: 304px;
+  color: #000;
+  text-align: center;
+  font-family: Be Vietnam-Light;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 0.64px;
+  margin: 19px -4px 0px 0px;
+  line-height: 22px;
+}
+.text_but2 {
+  width: 304px;
+  color: #000;
+  text-align: center;
+  font-family: Be Vietnam-Light;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 0.64px;
+  margin: 19px -6px 0px 0px;
+  line-height: 22px;
+}
+.bottle_under_text_strong {
+  font-family: Poppins-Bold;
+}
+.bottle_under_text5 {
+  color: #000;
+  font-family: Poppins-Regular;
   font-size: 24px;
-  font-weight: 400;
-  margin: 0 0 15px 0;
+  font-weight: 400px;
+  margin: 21px 0px 0px -4px;
+  text-align: center;
+}
+.bottle_under_text4 {
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-weight: 400px;
+  margin: 18px -1px 0px 0px;
+  text-align: center;
+}
+.bottle_under_text3 {
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-weight: 400px;
+  margin: 18px -3px 0px 0px;
+  text-align: center;
+}
+.bottle_under_text2 {
+  color: #000;
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  font-weight: 400px;
+  margin: 18px -12px 0px 0px;
   text-align: center;
 }
 .bottlehead2 {
-  margin: 0 0 0 -346px;
+  margin: 22px 0 0px -415px;
   width: 545px;
   height: 850px;
 }
@@ -189,30 +337,36 @@ li {
   display: flex;
 }
 .cl2 {
-  margin: -70px 0 0 -268px;
+  margin: -78px 0 0 -277px;
 }
 .texthead2 {
   color: #000;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 67px;
   margin: 160px 0 0 0;
+  padding-bottom: 19px;
+}
+.texthead2-strong {
+  font-family: Poppins-Bold;
 }
 .textblock2 {
   color: #000;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: normal;
   letter-spacing: 0.64px;
-  width: 660px;
-  margin: 0 0 10px 0;
+  width: 650px;
+  margin: 0px 0 10px 0;
+  word-spacing: -0.5px;
+  line-height: 23px;
 }
 .button337 {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -224,27 +378,38 @@ li {
   border-radius: 27px;
   background: #FF543D;
   border: none;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 .block2div {
   margin-left: 110px;
-  margin-top: 28px;
+  margin-top: 22px;
+}
+.sobw-div {
+  margin-top: -160px;
+  margin-right: -17px;
 }
 .textblock3 {
   margin: 150px 0 0 0;
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 400px;
+}
+.textblock3-strong {
+  font-family: Poppins-Bold;
+  margin-left: -2px;
 }
 .textblock4 {
   color: #000;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   letter-spacing: 0.64px;
+  margin: 8px 0px 0px 0px;
+  line-height: 22px;
+  word-spacing: -0.4px;
 }
 .buti {
   flex-direction: row;
@@ -254,29 +419,51 @@ li {
 }
 .but1 {
   display: flex;
-  justify-self: center;
   height: 400px;
   width: 100px;
-  margin-bottom: 105px;
+  margin-right: -143px;
+  margin-top: -1px;
 }
 .but2 {
   display: flex;
   height: 400px;
   width: 100px;
-  margin-bottom: 105px;
+  margin-right: -164px;
+  margin-top: -1px;
 }
 .but3 {
   display: flex;
   height: 400px;
   width: 100px;
-  margin-bottom: 105px;
+  margin-top: -1px;
+  margin-left: 36px;
 }
-.textblock5 {
+.textblock5-bot1 {
   color: #000;
   text-align: center;
   font-family: Poppins-Medium;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 500px;
+  margin: 106px -145px 10px 0px;
+}
+.textblock5-bot2 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins-Medium;
+  font-size: 28px;
+  font-weight: 500px;
+  margin: 106px -172px 10px 0px;
+}
+.textblock5-bot3 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins-Medium;
+  font-size: 28px;
+  font-weight: 500px;
+  margin: 106px -41px 10px 0px;
+}
+.textblock5-strong {
+  font-family: Poppins-Bold;
 }
 .center {
   display: flex;
@@ -295,18 +482,27 @@ li {
 .price {
   color: var(--ff-543-d, #FF543D);
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Bold;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: normal;
-  letter-spacing: 0.96px;
+  letter-spacing: -0.2px;
+}
+#id1 {
+  margin: 0 -148px 0 0;
+}
+#id2 {
+  margin: 0 -168px 0 0;
+}
+#id3 {
+  margin: 0 -36px 0 0;
 }
 .gifka {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(../img/piknicksmall.png), lightgray 50% / cover no-repeat;
-  width: 1828px;
+  width: 1820px;
   height: 800px;
-  margin-left: -239px;
+  margin: 150px 0px 0px -228px;
   border-radius: 100px;
 }
 .gifkatext {
@@ -320,36 +516,43 @@ li {
 .text333 {
   color: #FFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 66px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 85px;
-  margin-top: 250px;
+  margin-top: 242px;
+}
+.obama {
+  font-family: Poppins-Bold;
 }
 .text333under {
   color: #FFF;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400px;
   letter-spacing: 0.64px;
+  margin: 19px 0 0 0;
 }
 .textblock6 {
   margin: 347px 0 0 0;
   color: #000;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 67px;
   width: 647px;
 }
 .textblock7 {
   color: #000;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.64px;
-  margin-bottom: 45px;
+  font-weight: 300px;
+  letter-spacing: 0.54px;
+  margin-bottom: 42px;
+  margin-top: 17px;
+  line-height: 23px;
+  width: 647px;
 }
 .happycustommer {
   display: flex;
@@ -368,16 +571,17 @@ li {
 }
 .globtext {
   color: #000;
-  font-family: Poppins-Medium;
+  font-family: 'Poppins-Bold';
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700px;
 }
 .htext {
   width: 150px;
   color: #000;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
+  margin-top: 4px;
 }
 .zx {
   display: flex;
@@ -385,35 +589,45 @@ li {
 }
 .text620 {
   width: 620px;
+  margin: 0 0 0 -17px;
+}
+.obama2 {
+  font-family: Poppins-Bold;
 }
 .flexbut3 {
   display: flex;
   margin: 0 0 0 0;
 }
 .cl3 {
-  margin: 0 -1612px 0 889px;
+  margin: 50px -1612px 0 889px;
   position: sticky;
   z-index: -1;
+  padding: 0 0px 0 -62px;
 }
 .headbut3 {
-  margin: 150px 0 0 130px;
+  margin: 149px 0px 0 155px;
+  width: 503px;
+  height: 850px;
 }
 .textblock8 {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
-  margin-top: 150px;
+  font-weight: 400px;
+  margin: -10px 0 0 15px;
+}
+.events {
+  font-family: Poppins-Bold;
 }
 .textblock9 {
   color: #000;
   text-align: center;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.64px;
-  margin-bottom: 57px;
+  font-weight: 300px;
+  letter-spacing: 0.56px;
+  margin: 8px 0px 63px 21px;
 }
 .karinkiProstoBomba {
   display: flex;
@@ -429,42 +643,98 @@ li {
   display: flex;
   flex-direction: column;
 }
+.obama3 {
+  font-family: Poppins-Bold;
+}
 .px {
-  margin-right: 30px;
+  margin: 1px 30px 0 8px;
 }
 .headblocktext {
   color: #000;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 28px;
-  font-weight: 400;
-  margin-left: 10px;
+  font-weight: 400px;
+}
+#mar1 {
+  margin: 42px 0px 0 -6px;
+}
+#mar2 {
+  margin: 46px 0px 0 -6px;
+}
+#mar3 {
+  margin: 42px 0px 0 -19px;
+}
+#mar4 {
+  margin: 47px 0px 0 -7px;
 }
 .possibleblocktext {
   display: flex;
   color: #000;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.64px;
+  font-weight: 300px;
+  letter-spacing: 0.24px;
   align-items: flex-end;
-  margin: 10px 0 0 10px;
   width: 385px;
+}
+#pos1 {
+  margin: -2px 0px 0px -5px;
+}
+#pos2 {
+  margin: 0px 0px 0px -4px;
+}
+#pos3 {
+  margin: -2px 0px 0px -19px;
+}
+#pos4 {
+  margin: -2px 0px 0px -5px;
+}
+#eshkere1 {
+  margin: 15px 0px 0px -5px;
+  letter-spacing: 0.56px;
+}
+#eshkere2 {
+  margin: 13px 0px 0px -6px;
+  letter-spacing: 0.6px;
+}
+#eshkere3 {
+  margin: 16px 0px 0px -18px;
+  letter-spacing: 0.56px;
+}
+#eshkere4 {
+  margin: 15px 0px 0px -6px;
+  letter-spacing: 0.58px;
 }
 .link {
   color: var(--ff-543-d, #FF543D);
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: normal;
   text-decoration-line: underline;
   margin-left: 10px;
+}
+#read1 {
+  margin: 11px 0px 0px -4px;
+}
+#read2 {
+  margin: 10px 0px 0px -4px;
+}
+#read3 {
+  margin: 11px 0px 0px -18px;
+}
+#read4 {
+  margin: 11px 0px 0px -7px;
 }
 .bubilda {
   display: flex;
 }
 .px2 {
-  margin: 0 30px 0 71px;
+  margin: 0 30px 0 63px;
+}
+.px3 {
+  margin: 4px 30px 0 51px;
 }
 .button328 {
   width: 140px;
@@ -474,7 +744,7 @@ li {
   background: #FF543D;
   border: none;
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -482,59 +752,73 @@ li {
 .knpka {
   display: flex;
   justify-content: center;
-  margin: 9px 0 150px 0;
+  margin: 5px 0 150px 15px;
 }
 .lastblock {
   display: flex;
   margin: 0 0 0 0;
 }
 .cl4 {
-  margin: -74px -430px 0 -283px;
+  margin: -98px -430px 0 -283px;
+}
+.man {
+  margin: 0px 0px 0px -29px;
 }
 .marginfoto {
   margin: 0 0 0 60px;
 }
 .headtext9 {
   color: #000;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 67px;
-  margin: 0 0 45px 0;
+  margin: 106px 0 45px 0;
+}
+.slavia {
+  font-family: Poppins-Bold;
 }
 .thelastoftext {
   margin: 35px 0 0 0;
   color: #000;
   width: 665px;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+  font-weight: 300px;
+  line-height: 23px;
   letter-spacing: 0.64px;
+}
+.William {
+  font-family: Poppins-Bold;
 }
 .sername {
   color: #000;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: normal;
-  margin: 30px 0 0 0;
+  margin: 26px 0 0 0;
 }
 .thelasttext {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 52px;
-  font-weight: 400;
-  margin: 120px 0 0 0;
+  font-weight: 400px;
+  margin: 30px 0 0 18px;
+}
+.spons {
+  font-family: Poppins-Bold;
 }
 .mar {
-  margin: 60px 0 150px  0;
+  margin: 60px 0 147px 4px;
+  gap: 122px;
+  display: flex;
 }
 .marki {
-  margin-right: 116px;
+  margin-right: 1 16px;
 }
 .image-container {
   background-image: url(../img/Vector\ \(2\).png);
@@ -549,7 +833,7 @@ li {
 .text-container {
   margin: 130px 0 0 0;
   width: 1905px;
-  height: 236px;
+  height: 2 36px;
   flex-direction: row;
   display: flex;
 }
@@ -557,33 +841,37 @@ li {
   margin: 0 0 0 285px;
 }
 .slaviapng {
-  margin: 0 0 25px 0;
+  margin: 3px 0 24px 4px;
 }
 .foottext {
   color: #FFF;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
 }
 #width {
-  width: 316px;
+  width: 321px;
+  margin: 0px 0 0 3px;
+  letter-spacing: 0.59px;
+  line-height: 22px;
 }
 .contacts {
-  margin: 25px 0 0 0;
+  margin: 25px 0 0 3px;
 }
 #con1 {
-  width: 316px;
+  width: 3 16px;
 }
 .headtextfooter {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: normal;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.6px;
+  margin: 0px 0 0 2px;
 }
 .blockfooter2 {
-  margin: 0 0 0 102px;
+  margin: 4px 0 0 95px;
 }
 .line {
   width: 45px;
@@ -591,14 +879,32 @@ li {
   background: #FFF;
   margin: 12px 0 25px 0;
 }
+#line1 {
+  margin: 10px 0 0 2px;
+}
+#line3 {
+  margin: 9px 0 29px -3px;
+}
+.jd {
+  margin: 28px 0px 0px 4px;
+}
 #marginfoot {
-  margin: 0 0 12px 0;
+  margin: 0 0 15px 0;
 }
 #marginnn {
-  margin: 0 0 0 102px;
+  margin: 0 0 0 104px;
+}
+#hog {
+  margin: 4px 0 0 -3px;
+  letter-spacing: 0.77px;
+}
+.mararg {
+  margin: 29px 0px 0px 3px;
 }
 .zxc {
   display: flex;
+  margin: 18px 0px 0px 0px;
+  letter-spacing: 0.4px;
 }
 #photo {
   height: 19px;
@@ -608,28 +914,31 @@ li {
   width: 217px;
 }
 #marg {
-  margin: 0 0 12px 0;
+  margin: 16px 0 -1px 0;
+  letter-spacing: 0.64px;
 }
 #marg27 {
-  width: 337px;
+  margin: 27px 0px 0px -2px;
+  width: 354px;
+  letter-spacing: 0.45px;
 }
 .email {
-  width: 327px;
+  width: 340px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #FFF;
   display: flex;
-  margin: 25px 0 0 0 ;
+  margin: 27px 0 0 -2px;
 }
 .emailinput {
   margin: 0 0 0 25px;
   border: none;
   color: #ABABAB;
-  font-family: Be Vietnam;
+  font-family: Be Vietnam-Light;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: normal;
   letter-spacing: 0.64px;
   outline: none;
@@ -640,14 +949,14 @@ li {
   flex-shrink: 0;
   border-radius: 27px;
   background: #FF543D;
-  margin: 3px -9px 0 0;
+  margin: 3px -9px 0 14px;
 }
 .textbuttonfooter {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   line-height: normal;
   text-transform: uppercase;
   background: none;
@@ -659,6 +968,7 @@ li {
   width: 1350px;
   height: 2px;
   background: #FFF;
+  margin: -3px 0px 0px 25px;
 }
 .pos_longline {
   display: flex;
@@ -667,7 +977,7 @@ li {
 }
 .under_text {
   display: flex;
-  margin: 15px 0 0 0;
+  margin: 16px 0 0 0px;
 }
 .right_under_text {
   display: flex;
@@ -680,9 +990,9 @@ li {
 }
 .txt_under {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: normal;
 }
